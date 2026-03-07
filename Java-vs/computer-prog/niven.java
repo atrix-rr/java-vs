@@ -11,7 +11,7 @@ class niven
         int O=n%10;
         int S=H+T+O;
         
-        if(n/S==2)
+        if(n%S==0)
         {
             System.out.println("Niven no.");
         }
